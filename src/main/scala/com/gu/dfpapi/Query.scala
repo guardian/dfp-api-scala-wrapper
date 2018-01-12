@@ -1,6 +1,6 @@
-package com.gu.dfpapi.model
+package com.gu.dfpapi
 
-case class StatementBuilder(
+case class Query(
     select: Option[String] = None,
     from: Option[String] = None,
     where: Option[String] = None,
